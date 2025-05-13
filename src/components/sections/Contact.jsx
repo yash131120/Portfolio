@@ -28,7 +28,7 @@ function Contact() {
           {/* =========== TITLE =========== */}
           <h4 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">
             Let&apos;s Get in Touch:{" "}
-            <span className="text-white dark:text-red-500">
+            <span className="text-white dark:text-orange-500">
               Ways to Connect with Me
             </span>
           </h4>
@@ -45,7 +45,7 @@ function Contact() {
             {/* =========== FACEBOOK =========== */}
             <a
               href={user_info.socials.facebook}
-              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
+              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
             >
               <FaFacebook className="text-2xl" />
             </a>
@@ -53,7 +53,7 @@ function Contact() {
             {/* =========== INSTAGRAM =========== */}
             <a
               href={user_info.socials.instagram}
-              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
+              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
             >
               <FaInstagram className="text-2xl" />       
             </a>
@@ -61,7 +61,7 @@ function Contact() {
             {/* =========== LINKEDIN =========== */}
             <a
               href={user_info.socials.linkedin}
-              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
+              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
             >
               <FaLinkedin className="text-2xl" />      
             </a>
@@ -69,7 +69,7 @@ function Contact() {
             {/* =========== EMAIL =========== */}
             <a
               href={user_info.socials.linkedin}
-              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
+              className="flex items-center justify-center w-14 h-14 rounded-full bg-zinc-200 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-orange-500 hover:dark:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg"
             >
               <MdEmail className="text-2xl" />      
             </a>

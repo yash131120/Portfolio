@@ -10,7 +10,7 @@ function NotFound() {
                 <div className='flex h-screen justify-center px-6'>
                     <div className='self-center text-zinc-900 dark:text-zinc-300'>
                         <div className='flex text-5xl justify-center font-bold gap-4'>
-                            Oops! <FaSadTear />
+                            Oops! <FaSadTear className="text-orange-500" />
                         </div>
                         <div className="text-center leading-7 mt-6 text-lg font-light text-zinc-500 dark:text-zinc-400">
                             We can&lsquo;t seem to find the page you&lsquo;re looking
@@ -20,7 +20,7 @@ function NotFound() {
                             not found on this server.
                         </div>
                         <div className='text-center mt-6'>
-                            <button onClick={() => navigate("/")} className='bg-red-800 hover:bg-red-700 text-white px-6 py-4 rounded-xl'>Go back to homepage</button>
+                            <button onClick={() => navigate("/")} className='bg-orange-500 hover:bg-white text-white hover:text-orange-500 border-2 px-6 py-4 rounded-xl'>Go back to homepage</button>
                         </div>
                     </div>
                 </div>

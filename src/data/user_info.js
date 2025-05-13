@@ -5,8 +5,8 @@ const info = {
     description:
       "A passionate and self-motivated IT student seeking a web development internship to apply academic knowledge, gain industry experience, and contribute to real-world projects. Proficient in modern web technologies and eager to explore new tools and frameworks. Enthusiastic about problem-solving, continuous learning, and working in collaborative environments.",
     role: "Developer",
-    photo: "../first.png",
-    hoverphoto: "../hoverfirst.jpg",
+    photo: "https://drive.google.com/file/d/1enhyCB-4-Kt_lsRIjJNXIfsVEJkl7OVA/view?usp=drive_link",
+    hoverphoto: "https://drive.google.com/file/d/1ZgORHz7xEyFsp1T6bB6n0NpifQTZCqC0/view?usp=drive_link",
     email: "danielshan.balico@gmail.com",
     roles: ["Reader", "Programmer", "Designer"], // Add roles here
   },

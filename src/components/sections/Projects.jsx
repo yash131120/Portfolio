@@ -128,7 +128,7 @@ function Projects() {
 
           {/* Mascot emoji */}
           <img
-            src="/emoji-y.png"
+            src="/public/emoji-y.png"
             alt="Mascot"
             className="w-60 h-50 object-contain relative"
           />

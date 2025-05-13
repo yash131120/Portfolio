@@ -17,7 +17,7 @@ function Contact() {
           <div className="absolute top-0 left-0 w-80 h-80 bg-yellow-300 opacity-20 rounded-full blur-3xl animate-pulse shadow-lg"></div>
           
           <img
-            src="./../../../public/contact.png" // Replace with the actual image path
+            src="/public/contact.png" // Replace with the actual image path
             alt="Contact Illustration"
             className="w-60 h-auto relative"
           />

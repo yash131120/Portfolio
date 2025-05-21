@@ -1,37 +1,30 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Homepage from './pages/Homepage'
-import NotFound from './pages/404'
-import { useEffect, useState } from 'react';
-import { createContext } from 'react';
-import "preline/preline";
-
-
-export const AppContext = createContext();
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
-	const savedTheme = localStorage.getItem("theme");
-    const [theme, setTheme] = useState(savedTheme || "dark");
-
-	useEffect(() => {
-        document.documentElement.classList.toggle("dark", theme === "dark");
-
-        localStorage.setItem("theme", theme);
-    }, [theme]);
-
-	const switchTheme = () => {
-        setTheme(theme === "dark" ? "light" : "dark");
-    };
-
-	return (
-		<AppContext.Provider value={{ theme, switchTheme }}>
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="*" element={<NotFound />} />
-				</Routes>
-			</BrowserRouter>
-		</AppContext.Provider>
-	)
+  return (
+    <Router>
+      <div className="bg-white dark:bg-gray-900">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Home />
+              <About />
+              <Projects />
+              <Contact />
+              <Footer />
+            </>
+          } />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
